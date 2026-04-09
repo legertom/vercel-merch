@@ -11,7 +11,11 @@ export function ChatWidget() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const transport = useMemo(() => new TextStreamChatTransport(), []);
+  const conversationId = useMemo(() => crypto.randomUUID(), []);
+  const transport = useMemo(
+    () => new TextStreamChatTransport({ body: { conversationId } }),
+    [conversationId]
+  );
 
   const { messages, sendMessage, status } = useChat({
     transport,
