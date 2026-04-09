@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <rect width="600" height="600" fill="#0a0a0a"/>
+  <!-- Crewneck silhouette -->
+  <path d="M160 200 L160 180 L220 155 L260 168 L280 162 Q290 155 300 155 Q310 155 320 162 L340 168 L380 155 L440 180 L440 200 L480 190 L500 250 L450 268 L440 235 L440 490 Q440 510 420 510 L180 510 Q160 510 160 490 L160 235 L150 268 L100 250 L120 190 Z" fill="#333" stroke="#444" stroke-width="1.5"/>
+  <!-- Crew neckline -->
+  <path d="M260 168 L280 162 Q290 155 300 155 Q310 155 320 162 L340 168" fill="none" stroke="#555" stroke-width="2"/>
+  <!-- Ribbed bottom -->
+  <rect x="160" y="485" width="280" height="25" rx="3" fill="#2a2a2a" stroke="#444" stroke-width="0.5"/>
+  <line x1="180" y1="490" x2="180" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="200" y1="490" x2="200" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="220" y1="490" x2="220" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="240" y1="490" x2="240" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="260" y1="490" x2="260" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="280" y1="490" x2="280" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="300" y1="490" x2="300" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="320" y1="490" x2="320" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="340" y1="490" x2="340" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="360" y1="490" x2="360" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="380" y1="490" x2="380" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="400" y1="490" x2="400" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <line x1="420" y1="490" x2="420" y2="508" stroke="#3a3a3a" stroke-width="0.5"/>
+  <!-- Large "v0" text -->
+  <text x="300" y="350" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="100" font-weight="200" fill="#ffffff" letter-spacing="-4">v0</text>
+  <!-- Blue gradient line beneath -->
+  <defs>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0070F3" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0070F3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0070F3" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="220" y1="375" x2="380" y2="375" stroke="url(#blueGrad)" stroke-width="2"/>
+  <!-- Subtle "by Vercel" -->
+  <text x="300" y="400" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="400" fill="#555" letter-spacing="3">by Vercel</text>
+</svg>

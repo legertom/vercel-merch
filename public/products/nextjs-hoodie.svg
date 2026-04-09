@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <rect width="600" height="600" fill="#0a0a0a"/>
+  <!-- Hoodie silhouette -->
+  <path d="M170 200 L170 175 L230 150 L260 160 L280 152 L280 130 Q280 105 300 105 Q320 105 320 130 L320 152 L340 160 L370 150 L430 175 L430 200 L480 185 L505 260 L455 280 L440 240 L440 490 Q440 510 420 510 L180 510 Q160 510 160 490 L160 240 L145 280 L95 260 L120 185 Z" fill="#1a1a1a" stroke="#333" stroke-width="1.5"/>
+  <!-- Hood -->
+  <path d="M230 150 L260 160 L280 152 L280 130 Q280 105 300 105 Q320 105 320 130 L320 152 L340 160 L370 150 L350 120 Q340 90 300 80 Q260 90 250 120 Z" fill="#222" stroke="#333" stroke-width="1"/>
+  <!-- Kangaroo pocket -->
+  <rect x="210" y="380" width="180" height="70" rx="8" fill="none" stroke="#333" stroke-width="1.2"/>
+  <!-- Drawstrings -->
+  <line x1="285" y1="155" x2="275" y2="230" stroke="#444" stroke-width="1.5"/>
+  <line x1="315" y1="155" x2="325" y2="230" stroke="#444" stroke-width="1.5"/>
+  <circle cx="275" cy="232" r="3" fill="#444"/>
+  <circle cx="325" cy="232" r="3" fill="#444"/>
+  <!-- Next.js text -->
+  <text x="300" y="310" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" fill="#ffffff" letter-spacing="1">Next.js</text>
+  <!-- Blue underline accent -->
+  <line x1="220" y1="325" x2="380" y2="325" stroke="#0070F3" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Small triangle on pocket -->
+  <polygon points="300,392 310,408 290,408" fill="#0070F3" opacity="0.6"/>
+</svg>

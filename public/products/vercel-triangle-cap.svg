@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <rect width="600" height="600" fill="#0a0a0a"/>
+  <!-- Cap silhouette -->
+  <!-- Crown -->
+  <path d="M150 320 Q150 200 300 180 Q450 200 450 320 Z" fill="#1a1a1a" stroke="#333" stroke-width="1.5"/>
+  <!-- Brim -->
+  <path d="M130 320 Q130 330 140 340 L380 380 Q420 370 430 350 Q440 335 430 320 Z" fill="#111" stroke="#333" stroke-width="1.5"/>
+  <!-- Brim edge highlight -->
+  <path d="M140 340 L380 380 Q420 370 430 350" fill="none" stroke="#0070F3" stroke-width="1" opacity="0.4"/>
+  <!-- Panel seam lines -->
+  <line x1="300" y1="185" x2="300" y2="320" stroke="#2a2a2a" stroke-width="1"/>
+  <line x1="220" y1="195" x2="200" y2="320" stroke="#2a2a2a" stroke-width="0.8"/>
+  <line x1="380" y1="195" x2="400" y2="320" stroke="#2a2a2a" stroke-width="0.8"/>
+  <!-- Button on top -->
+  <circle cx="300" cy="183" r="6" fill="#222" stroke="#333" stroke-width="1"/>
+  <!-- Large Vercel triangle -->
+  <polygon points="300,225 345,290 255,290" fill="#ffffff"/>
+  <!-- Blue glow behind triangle -->
+  <polygon points="300,225 345,290 255,290" fill="#0070F3" opacity="0.15" transform="scale(1.15) translate(-22,-30)"/>
+  <!-- Strap at back -->
+  <path d="M430 310 Q460 315 470 330 Q460 345 440 340" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- Metal clasp -->
+  <rect x="455" y="322" width="12" height="8" rx="1" fill="#444" stroke="#555" stroke-width="0.5"/>
+</svg>

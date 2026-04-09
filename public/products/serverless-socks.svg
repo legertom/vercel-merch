@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <rect width="600" height="600" fill="#0a0a0a"/>
+  <defs>
+    <!-- Triangle pattern -->
+    <pattern id="triPattern" x="0" y="0" width="30" height="26" patternUnits="userSpaceOnUse">
+      <polygon points="15,2 28,24 2,24" fill="#0070F3" opacity="0.35"/>
+    </pattern>
+    <pattern id="triPattern2" x="0" y="0" width="30" height="26" patternUnits="userSpaceOnUse">
+      <polygon points="15,2 28,24 2,24" fill="#0070F3" opacity="0.25"/>
+    </pattern>
+    <clipPath id="sock1Clip">
+      <path d="M160 120 L160 400 Q160 460 200 460 L280 460 Q320 460 320 420 L320 370 Q320 340 300 340 L220 340 Q200 340 200 320 L200 120 Z"/>
+    </clipPath>
+    <clipPath id="sock2Clip">
+      <path d="M360 120 L360 400 Q360 460 400 460 L480 460 Q520 460 520 420 L520 370 Q520 340 500 340 L420 340 Q400 340 400 320 L400 120 Z"/>
+    </clipPath>
+  </defs>
+  <!-- Left sock -->
+  <g>
+    <path d="M160 120 L160 400 Q160 460 200 460 L280 460 Q320 460 320 420 L320 370 Q320 340 300 340 L220 340 Q200 340 200 320 L200 120 Z" fill="#1a1a1a" stroke="#333" stroke-width="1.5"/>
+    <!-- Triangle pattern fill -->
+    <rect x="140" y="100" width="200" height="380" fill="url(#triPattern)" clip-path="url(#sock1Clip)"/>
+    <!-- Ribbed top -->
+    <rect x="157" y="120" width="46" height="40" rx="3" fill="none" stroke="#333" stroke-width="0.8"/>
+    <line x1="160" y1="128" x2="200" y2="128" stroke="#2a2a2a" stroke-width="1"/>
+    <line x1="160" y1="135" x2="200" y2="135" stroke="#2a2a2a" stroke-width="1"/>
+    <line x1="160" y1="142" x2="200" y2="142" stroke="#2a2a2a" stroke-width="1"/>
+    <line x1="160" y1="149" x2="200" y2="149" stroke="#2a2a2a" stroke-width="1"/>
+    <!-- Heel accent -->
+    <path d="M200 320 Q200 340 220 340 L300 340 Q320 340 320 370" fill="none" stroke="#0070F3" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <!-- Right sock -->
+  <g>
+    <path d="M360 120 L360 400 Q360 460 400 460 L480 460 Q520 460 520 420 L520 370 Q520 340 500 340 L420 340 Q400 340 400 320 L400 120 Z" fill="#1a1a1a" stroke="#333" stroke-width="1.5"/>
+    <!-- Triangle pattern fill -->
+    <rect x="340" y="100" width="200" height="380" fill="url(#triPattern2)" clip-path="url(#sock2Clip)"/>
+    <!-- Ribbed top -->
+    <rect x="357" y="120" width="46" height="40" rx="3" fill="none" stroke="#333" stroke-width="0.8"/>
+    <line x1="360" y1="128" x2="400" y2="128" stroke="#2a2a2a" stroke-width="1"/>
+    <line x1="360" y1="135" x2="400" y2="135" stroke="#2a2a2a" stroke-width="1"/>
+    <line x1="360" y1="142" x2="400" y2="142" stroke="#2a2a2a" stroke-width="1"/>
+    <line x1="360" y1="149" x2="400" y2="149" stroke="#2a2a2a" stroke-width="1"/>
+    <!-- Heel accent -->
+    <path d="M400 320 Q400 340 420 340 L500 340 Q520 340 520 370" fill="none" stroke="#0070F3" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <!-- Brand text between socks -->
+  <text x="300" y="540" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#333" letter-spacing="6">SERVERLESS</text>
+</svg>
