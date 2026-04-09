@@ -1,4 +1,4 @@
-import { streamText } from "ai";
+import { streamText, convertToModelMessages } from "ai";
 import { openai } from "@ai-sdk/openai";
 import { products } from "@/lib/products";
 import { formatPrice } from "@/lib/utils";
@@ -39,7 +39,7 @@ export async function POST(req: Request) {
   const result = streamText({
     model: openai("gpt-4o-mini"),
     system: systemPrompt,
-    messages,
+    messages: await convertToModelMessages(messages),
   });
 
   return result.toTextStreamResponse();
